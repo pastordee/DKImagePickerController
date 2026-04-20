@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/zhangao0086/DKCamera", .branch("master")),
         .package(url: "https://github.com/zhangao0086/DKPhotoGallery", .branch("master")),
-        .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.0"),
+        .package(url: "https://github.com/TimOliver/TOCropViewController", from: "3.1.2"),
     ],
     targets: [
         .target(
